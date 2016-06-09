@@ -1,0 +1,11 @@
+#carre{
+	width: 800px;
+	height: 700px;
+	background: #000 
+//url(collines.jpg) center center no-repeat; /*couleur, la source de l'image, position axe x et position axe y, par defaut on est sur repeat */
+}
+#tabs-3{
+	width: 5000px;
+	height: 200px;
+	background: green url(collines.jpg) center center no-repeat; /*couleur, la source de l'image, position axe x et position axe y, par defaut on est sur repeat */
+}

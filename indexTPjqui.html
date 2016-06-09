@@ -1,0 +1,105 @@
+</!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/cssjq.css" />
+<link rel="stylesheet" href="css/formulaire.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/uijq.js"></script>
+	<title>jqui</title>
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+
+<script>
+	$(function() {
+  				});
+</script>
+
+</head>
+<body>
+<ul>
+	<li id="menu1">menu1</li>
+	<li id="menu2">menu2</li>
+	<li id="menu3">menu3</li>
+</ul>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Name</a></li>
+    <li><a href="#tabs-2">Formulaire</a></li>
+    <li><a href="#tabs-3">Animation</a></li>
+  </ul>
+
+  <div id="tabs-1">
+    <p>My Name is Vincent D</p>
+  </div>
+
+  <div id="tabs-2">
+    <p>Form </p>
+ <form action="" method="" enctype="" >
+		<label for="pseudo">Pseudo</label>
+			<input type="text"  value="toto" name="pseudo" id="pseudo"/>
+		<br />
+		<label for="mdp">Mdp</label>
+			<input type="password" name="mdp" id="mdp"/>
+		<br />
+		
+		<label for="nom">Nom *</label>
+			<input type="text" name="nom" id="nom" required />
+		<br />
+		<label for="prenom">Prénom</label>
+			<input maxlength="5" type="text" name="prenom" id="prenom" placeholder="change moi!" />
+		<br />
+		<label for="email">Email</label>
+			<input type="email" name="email" id="email" />
+		<br />
+		<label for="avatar">Avatar</label>
+			<input type="file" name="avatar" id="avatar" />
+		<br />
+		<label>Sexe</label>
+			<input type="radio" name="sexe" checked />Homme
+			<input type="radio" name="sexe"/>Femme
+		<br />	
+		<label>Vos fruits préférés ?</label>
+			<input type="checkbox" name="fruits"/>Poires
+			<input type="checkbox" name="fruits"/>Pommes
+			<input type="checkbox" checked name="fruits"/>Mangues
+			<input type="checkbox" name="fruits"/>Cerises
+		
+		<br />
+		<label>ville</label>
+			<select name="ville">
+				<option>Paris</option>
+				<option>Lyon</option>
+				<option selected>Lille</option>
+			</select>
+		<br />
+		
+		<label>Pays</label>
+			<input type="text" list="toto" name="pays">
+			<datalist id="toto">
+				<option>France</option>
+				<option>Italie</option>
+				<option>Espagne</option>
+				<option>Armenie</option>
+				<option>Angleterre</option>
+			</datalist>
+		
+		<label>Adresse</label>
+			<textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+		<br /> 	
+		<input type="submit" name="valider" value="Enregistrement" />
+	</form>
+  </div>
+
+  <div id="tabs-3">
+    <p>Mauris le fermier Geek </p>
+<img src="images/ui-icons_444444_256x240.png" title="infobulle" alt="test image colline"/>
+<button id="testButton">try</button>
+  </div>
+</div>
+
+<div id="toggle">bounce</div>
+
+</body>
+
+</html>

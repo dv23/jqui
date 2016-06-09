@@ -1,0 +1,12 @@
+label{
+	display: block;
+	float :left;
+	width : 150px;
+}
+input[type="submit"]{
+	margin: 0 0 0 20px;
+}
+/*
+textarea{
+	resize: vertical; /*none*/ 
+
